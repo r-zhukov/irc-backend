@@ -17,10 +17,6 @@ import { UsersModule } from '../users/users.module';
       },
     }),
   ],
-  exports: [
-    AuthService,
-    JwtModule,
-  ],
+  exports: [AuthService, JwtModule],
 })
-export class AuthModule {
-}
+export class AuthModule {}
